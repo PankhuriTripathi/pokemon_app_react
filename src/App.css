@@ -1,0 +1,79 @@
+
+
+.App {
+  display:flex;
+justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25px;
+  flex-direction: column;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+
+.TitleSection{
+  background-color:rgb(196, 66, 19);
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+  width: 100%;
+  height: 300px;
+  display:flex;
+  flex-direction: column;
+align-items: center;
+  color: aliceblue;
+}
+
+.TitleSection input{
+  width:200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.TitleSection button {
+	width: 180px;
+  height:60px;
+  margin: 20px;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #252d4a;
+	border-radius: 15px;
+	display: flex;
+	padding-left: 10px;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid #234668;
+
+}
+
+
+
+
+.TitleSection button:hover{
+  cursor: pointer;
+}
+
+.DisplaySection{
+  display: flex;
+  background-color:rgb(255, 248, 246);
+
+  
+  flex-direction: column;
+  align-items:center;
+}
+
+.DisplaySection h4,h3{
+  margin:5px;
+
+}
+
+
+.DisplaySection img{
+  width: 200px;
+}
